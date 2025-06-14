@@ -34,8 +34,9 @@ func main() {
 				fmt.Scan(&guess)
 			}
 		}
-
 	}
+
+	fmt.Printf("unlucky the number was %d", theNumber)
 
 }
 
