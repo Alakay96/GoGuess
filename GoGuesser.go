@@ -8,8 +8,6 @@ import (
 
 func main() {
 	theNumber := randInt(1, 100)
-	// var guess int
-	// var numOfGuess int
 	var difficulty int
 
 	fmt.Println("Welcome to GO Guessing game")
@@ -38,29 +36,6 @@ func main() {
 		}
 
 	}
-	// fmt.Print("Enter your guess: ")
-	// _, err = fmt.Scan(&guess)
-
-	// for range 10 {
-	// 	if err != nil {
-	// 		fmt.Println("Invalid input")
-	// 	} else if guess < 0 || guess > 100 {
-	// 		fmt.Printf("Invalid number, %d", guess)
-	// 	} else {
-	// 		if guess == theNumber {
-	// 			fmt.Printf("You got it %d in %d", theNumber, numOfGuess)
-	// 			break
-	// 		} else {
-	// 			fmt.Println("Incorrect")
-	// 			numOfGuess += 1
-	// 			fmt.Print("Enter your guess: ")
-	// 			fmt.Scan(&guess)
-	// 		}
-	// 	}
-	// }
-
-	// fmt.Printf("unlucky the number was %d", theNumber)
-
 }
 
 func guessGame(theNumber, difficultyGuesses int) {
